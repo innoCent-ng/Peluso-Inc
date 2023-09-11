@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  margin: auto;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #181525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bgpic {
+  background-image: url("images/bgpic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+}
+header h1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+header nav {
+  margin-right: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+nav ul li a:hover {
+  color: #555;
+}
+.bgpic h2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  width: 80rem;
+}
+.who {
+  width: 600px;
+  height: 200px;
+  background-color: #181525;
+  border-radius: 10px;
+  color: white;
+  left: 50px;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+  left: 75px;
+  top: 20px;
+}
+.who h2 {
+  padding-top: 55px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.message {
+  margin-top: 90px;
+  width: 80rem;
+  height: 200px;
+  background-color: gray;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.messagep {
+  margin: 30px;
+  padding-left: 60px;
+  color: white;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+footer {
+  width: 100%;
+  background-color: #181525;
+  text-align: center;
+  align-items: center;
+  height: 80px;
+}
+footer p {
+  color: white;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+  top: 40px;
+  font-weight: 700;
+}
+.more {
+  display: flex;
+  width: 70rem;
+  height: 200px;
+  margin-bottom: 200px;
+  padding: 50px;
+  margin-left: 200px;
+}
+.pp1 {
+  background-color: #181525;
+  width: 1000px;
+  height: 200px;
+  position: relative;
+  border-radius: 20px;
+  right: 90px;
+  top: 10px;
+  overflow: hidden;
+}
+.morepic {
+  height: 400px;
+  width: 80rem;
+  background-image: url(images/Healthcare-Offer-Background.jpg);
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+.p1 {
+  margin: 30px;
+  color: white;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.services {
+  width: 90rem;
+  padding-left: 100px;
+  height: 300px;
+  margin-right: 200px;
+  justify-content: space-between;
+  display: flex;
+}
+.heading1 {
+  background-image: url(images/Healthcare-Offer-Background.jpg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 10px;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.heading1 p a {
+  color: white;
+  top: 70px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+}
+.heading1p {
+  width: 70rem;
+  height: 150px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #181525;
+  border-radius: 10px;
+  margin-right: 30px;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.heading1p p {
+  color: white;
+  padding: 30px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.about {
+  width: 90rem;
+  padding-left: 100px;
+  height: 300px;
+  margin-right: 200px;
+  justify-content: space-between;
+  display: flex;
+}
+.heading2 {
+  background-image: url(images/Healthcare-Offer-Background.jpg);
+  box-shadow: 16px 14px 20px #0000008c;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.heading2p {
+  width: 70rem;
+  height: 150px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #181525;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.heading2 p a {
+  color: white;
+  top: 70px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+}
+.heading2p p {
+  color: white;
+  padding: 30px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.contact {
+  width: 90rem;
+  padding-left: 100px;
+  height: 300px;
+  margin-right: 200px;
+  justify-content: space-between;
+  display: flex;
+}
+.heading3 {
+  background-image: url(images/Healthcare-Offer-Background.jpg);
+  box-shadow: 16px 14px 20px #0000008c;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.heading3p {
+  width: 70rem;
+  height: 150px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #181525;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.heading3 p a {
+  color: white;
+  top: 70px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+}
+.heading3p p {
+  color: white;
+  padding: 50px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.bgpicservice {
+  background-image: url("images/Healthcare-Offer-Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+.serviceh1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  position: relative;
+  bottom: 160px;
+}
+.servicebox {
+  width: 400px;
+  height: 100px;
+  background-color: #181525;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 50px;
+  margin-left: 600px;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.serviceh2 {
+  position: relative;
+  top: 35px;
+}
+.servicep {
+  margin-left: 100px;
+}
+table {
+  margin-left: 200px;
+}
+.clientsbox {
+  width: 400px;
+  height: 100px;
+  background-color: #181525;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-left: 600px;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.clientsh2 {
+  position: relative;
+  top: 35px;
+}
+.clientp {
+  margin-left: 100px;
+  margin-top: 20px;
+  color: #181525;
+  font-size: 20px;
+}
+.clients {
+  display: flex;
+}
+.clientsm {
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  background-color: #181525;
+  width: 120rem;
+  height: 300px;
+  margin: 10px;
+  color: white;
+  overflow: hidden;
+}
+.clientsm2 {
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  background-color: #181525;
+  width: 120rem;
+  height: 300px;
+  margin: 10px;
+  color: white;
+  overflow: hidden;
+}
+.clientsm p {
+  margin-left: 10px;
+}
+.clientsm2 p {
+  margin-left: 10px;
+}
+.clientsm img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+.clientsm2 img {
+  width: 400px;
+  height: 150px;
+  object-fit: cover;
+}
+.work_with {
+  display: flex;
+}
+h4 {
+  text-align: center;
+  color: white;
+}
+.workbox {
+  background-color: #181525;
+  margin: 10px;
+  border-radius: 10px;
+  width: 120rem;
+}
+.workbox h5 {
+  text-align: center;
+  margin-left: 10px;
+  color: white;
+}
+.bgpicabout {
+  background-image: url("images/bgpic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+.mainabout {
+  display: flex;
+  justify-content: center;
+  width: 90rem;
+  position: relative;
+  bottom: 60px;
+  margin-left: 80px;
+}
+.whoabout {
+  width: 300px;
+  height: 120px;
+  background-color: #181525;
+  border-radius: 10px;
+  color: white;
+  left: 50px;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+  left: 75px;
+  top: 20px;
+}
+.whoabout h3 {
+  padding-top: 25px;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.messageabout {
+  margin-top: 90px;
+  width: 60rem;
+  height: 150px;
+  background-color: gray;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.messagepabout {
+  margin: 30px;
+  padding-top: 17px;
+  padding-left: 60px;
+  color: white;
+  font-family: "Aoboshi One", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.our {
+  width: 450px;
+  height: 120px;
+  background-color: #181525;
+  border-radius: 10px;
+  margin-left: 500px;
+  text-align: center;
+}
+.our h2 {
+  color: white;
+  top: 50px;
+  position: relative;
+}
+.ourp {
+  text-align: center;
+  font-weight: 700;
+}
+.team {
+  display: flex;
+  justify-content: center;
+}
+.team li {
+  margin: 20px;
+  width: 400px;
+  height: 400px;
+  color: #181525;
+  list-style: none;
+}
+.memberimg {
+  background-color: #181525;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px 6px #0000008c;
+}
+.memberimg .name {
+  color: white;
+  position: relative;
+  top: 130px;
+  left: 95px;
+}
+.em {
+  margin-left: 170px;
+  font-weight: 700;
+}
+.em2 {
+  margin-left: 140px;
+  font-weight: 700;
+}
+.em1 {
+  margin-left: 130px;
+  font-weight: 700;
+}
+.team p {
+  text-align: center;
+}
+.addressbox {
+  background-color: #181525;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 10px;
+  color: white;
+}
+.contactbox {
+  background-color: #555;
+  color: white;
+  width: 60rem;
+  height: 660px;
+  margin: 30px;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+}
+.contactarea {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  width: 100%;
+  height: 45rem;
+}
+.addressbox h3 {
+  text-align: center;
+}
+.addressbox p {
+  padding: 10px;
+  margin-left: 30px;
+}
+.contactbox h3 {
+  text-align: center;
+}
+form {
+  padding-left: 50px;
+}
+textarea {
+  width: 600px;
+  height: 60px;
+  margin-left: 20px;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+input {
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 9px;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  padding-left: 10px;
+  background-color: transparent;
+}
+::placeholder {
+  color: white;
+  font-weight: 700;
+}
+.submitbutton {
+  width: 200px;
+  height: 50px;
+  margin-left: 200px;
+  border-radius: 10px;
+  background-color: #181525;
+  color: white;
+  border: none;
+  position: relative;
+  left: 200px;
+  box-shadow: 16px 14px 20px #0000008c;
+  cursor: pointer;
+}
+.submitbutton:hover{
+  background-color: white;
+  color:#181525
+}
+.ppbox {
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 16px 14px 20px #0000008c;
+}
+.select {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border-radius: 7px;
+  padding: 10px;
+}
